@@ -7,3 +7,27 @@ body {
   font-size: 13px;
   color: white;
 }
+
+footer {
+  margin-top: 30px;
+  background-color: grey;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+  color: black;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: black;  
+}
