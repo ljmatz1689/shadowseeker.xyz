@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L.J. Matuguina</title>
-    <meta name="description" content="Lolit Jane Matuguina, Lj Matuguina, Lj, the kid with dreams, shifting career" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lolit Jane Matuguina</h1>
+        <p>Operating Room Nurse | Web Developer | Aspiring Cybersecurity Specialist</p>
+    </header>
     <main>
-      <h1>Lolit Jane Matuguina</h1>
-      <p> Operating Room Nurse | Web developer | Aspiring Cybersecurity Specialist</p>
-        <section>
-          <h2><a>About Me</a></h2>
-	    <p>I'm cool...</p>
+        <section class="interactive-section" id="about" onclick="location.href='sections/about.html'">
+            <div class="background" style="background-image: url('path/to/about-background.jpg');"></div>
+            <h2>About Me</h2>
         </section>
-        <section>
-	  <h2><a>Nurse Life</a></h2>    
+        <section class="interactive-section" id="nurse-life" onclick="location.href='sections/nurse-life.html'">
+            <div class="background" style="background-image: url('path/to/nurse-life-background.jpg');"></div>
+            <h2>Nurse Life</h2>
         </section>
-	<section>
-	  <h2>Full-Stack Developer in training</h2>
-	</section>
-	<section>
-	  <h2><a>Pen Tester</a></h2>
-	</section>
-	<section>
-	  <h2><a>My Portfolio</a></h2>
-	</section>
-	<section>
-	  <h2><a href="https://blackprince1689.tumblr.com" target="_blank">Blogs</a></h2>
-	</section>
+        <section class="interactive-section" id="fullstack" onclick="location.href='sections/fullstack.html'">
+            <div class="background" style="background-image: url('path/to/fullstack-background.jpg');"></div>
+            <h2>Full-Stack Developer in training</h2>
+        </section>
+        <section class="interactive-section" id="pentester" onclick="location.href='sections/pentester.html'">
+            <div class="background" style="background-image: url('path/to/pentester-background.jpg');"></div>
+            <h2>Pentester</h2>
+        </section>
+        <section class="interactive-section" id="portfolio" onclick="location.href='sections/portfolio.html'">
+            <div class="background" style="background-image: url('path/to/portfolio-background.jpg');"></div>
+            <h2>My Portfolio</h2>
+        </section>
+        <section class="interactive-section" id="blogs" onclick="location.href='sections/blogs.html'">
+            <div class="background" style="background-image: url('path/to/blogs-background.jpg');"></div>
+            <h2>Blogs</h2>
+        </section>
     </main>
-    <footer>
-      <ul>
-        <li><a href="#">Privacy</a></li>
-	<li><a href="#">Terms</a></li>
-	<li><a href="#">Contact</a></li>
-      </ul>
-      <span>Copyright 2025, Shadow Seeker</span>
-    </footer>
-  </body>
+</body>
 </html>
