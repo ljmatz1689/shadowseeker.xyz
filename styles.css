@@ -214,6 +214,7 @@ footer {
 @media (max-width: 900px) {
     body {
         flex-direction: column;
+        background-attachment: fixed;
     }
     header {
         position: relative;
@@ -243,6 +244,19 @@ footer {
         aspect-ratio: 16/9;              /* Keep the same aspect ratio on mobile */
         height: auto;                    /* Let aspect-ratio control the height */
         border: 2px solid #fff;          /* Fine white border on mobile too */
+    }
+    .interactive-section h2 {
+        position: relative;
+        z-index: 2;
+        margin: 0 0 1rem 0;
+        padding: 0.5rem 1rem;
+        color: #fff;
+        text-shadow: 0 2px 8px #000;
+        font-size: 1.1rem;
+        text-align: center;
+        width: 100%;         /* Ensures heading is centered */
+        display: block;
+        box-sizing: border-box;
     }
     .background {
         background-size: contain;        /* Show the whole image */
