@@ -272,20 +272,33 @@ footer {
 }
 
 .back-button {
-    display: inline-block;
-    margin: 1rem 0 1.5rem 0;
-    padding: 0.5rem 1.2rem;
-    background: #222;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 8px;
     color: #fff;
-    border-radius: 6px;
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    transition: background 0.2s, color 0.2s;
+    font-size: 2rem;
+    margin: 1rem 0 1.5rem 0;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 100;
 }
-.back-button:hover {
-    background: #fff;
-    color: #222;
-    text-decoration: underline;
+.back-button:hover,
+.back-button:focus {
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    border-color: #fff;
+}
+.arrow {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    pointer-events: none;
 }
