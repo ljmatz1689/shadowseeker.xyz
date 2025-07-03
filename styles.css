@@ -246,7 +246,7 @@ footer {
     }
     .background {
         background-size: contain;      /* Show the whole image */
-        background-position: center;
+        background-position: center 60%;
         background-repeat: no-repeat;
     }
 }
