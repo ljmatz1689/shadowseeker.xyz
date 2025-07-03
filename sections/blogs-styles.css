@@ -285,16 +285,23 @@ footer {
     text-decoration: none;
     font-size: 2rem;
     margin: 1rem 0 1.5rem 0;
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    transition: background 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
     position: absolute;
     top: 1rem;
     left: 1rem;
     z-index: 100;
+    cursor: pointer;
 }
 .back-button:hover,
 .back-button:focus {
-    background: rgba(255,255,255,0.08);
-    color: #fff;
+    background: rgba(255,255,255,0.12);
+    color: #222;
+    border-color: #fff;
+    box-shadow: 0 2px 8px rgba(255,255,255,0.15);
+}
+.back-button:active {
+    background: rgba(255,255,255,0.25);
+    color: #222;
     border-color: #fff;
 }
 .arrow {
