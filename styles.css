@@ -10,7 +10,6 @@ body {
     min-height: 100vh;
     background: url('images/eat-sleep-code-3840x2160-16019.png') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
     display: flex;
     font-size: 0.95rem;
 }
@@ -250,9 +249,6 @@ footer {
         margin-bottom: 1rem;
         box-shadow: 0 4px 24px rgba(0,0,0,0.5);
         background: rgba(255,255,255,0.05);
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .interactive-section h2 {
         position: relative;
@@ -266,7 +262,7 @@ footer {
         z-index: 2;
         background: transparent;
         box-sizing: border-box;
-        line-height: 1.2;
+        line-height: 1;
         display: block;
     }
     .background {
