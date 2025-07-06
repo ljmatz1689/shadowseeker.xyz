@@ -214,6 +214,7 @@ footer {
 @media (max-width: 900px) {
     body {
         flex-direction: column;
+        background-attachment: fixed;;
     }
     header {
         position: relative;
@@ -233,8 +234,9 @@ footer {
         margin-top: 0;
         padding: 1rem 0.5rem;
         gap: 1rem;
-        height: calc(100vh - 1.5rem - 80px);
+        height: auto;
         min-height: 0;
+        overflow: visible
     }
     .interactive-section {
         width: 98vw;
